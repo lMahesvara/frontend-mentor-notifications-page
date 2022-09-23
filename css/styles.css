@@ -1,0 +1,16 @@
+root {
+  --mobile: 375px;
+  --desktop: 1440px;
+  --primary-red: #f65351;
+  --primary-blue: #0a317b;
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-Very-light-grayish-blue: #f7fafd;
+  --neutral-Light-grayish-blue-1: #e5effa;
+  --neutral-Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --neutral-Grayish-blue: #939dae;
+  --neutral-Dark-grayish-blue: #5e6778;
+  --neutral-very-dark-blue: hsl(224, 21%, 14%);
+
+  --ff: "Plus Jakarta Sans", sans-serif;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body
+    class="font-jakarta md:bg-[#f7fafd] w-screen h-screen overflow-hidden md:flex md:flex-col md:items-center md:justify-center"
+  >
+    <main class="md:max-w-3xl bg-white rounded-lg">
+      <header class="my-5 mx-5">
+        <nav class="flex justify-between">
+          <div class="flex items-center">
+            <p class="text-black text-xl font-extrabold">Notifications</p>
+            <span class="ml-3 bg-[#0a317b] px-3 rounded-md text-white font-bold"
+              >3</span
+            >
+          </div>
+          <button class="text-gray-500 font-semibold hover:text-[#0a317b]">
+            Mark all as read
+          </button>
+        </nav>
+      </header>
+      <section class="px-5">
+        <article class="px-3 py-3 mb-3 bg-[#f7fafd] rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-mark-webber.webp"
+            alt="mark-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Mark Webber</a
+              >
+              reacted to your recent post
+              <a class="text-[#5e6778] font-bold hover:text-[#0a317b]"
+                >My first tournament today!
+              </a>
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-[#f65351] inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold">1m ago</span>
+          </div>
+        </article>
+
+        <article class="px-3 py-3 mb-3 bg-[#f7fafd] rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-angela-gray.webp"
+            alt="angela-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Angela Gray</a
+              >
+              followed you
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-[#f65351] inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold">5m ago</span>
+          </div>
+        </article>
+        <article class="px-3 py-3 mb-3 bg-[#f7fafd] rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-jacob-thompson.webp"
+            alt="angela-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Jacob Thompson</a
+              >
+              has joined your group
+              <a href="#" class="text-[#0a317b] font-bold hover:text-[#0a317b]"
+                >Chess Club</a
+              >
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-[#f65351] inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold"
+              >1 day ago</span
+            >
+          </div>
+        </article>
+        <article class="px-3 py-3 mb-3 bg-transparent rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt="angela-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Rizky Hasanuddin</a
+              >
+              sent you a private message
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-transparent inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold"
+              >5 days ago</span
+            >
+            <div class="border rounded-md px-3 py-4 mt-2 hover:bg-[#e5effa]">
+              <p class="text-sm text-[#5e6778]/80 font-medium">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="px-3 py-3 mb-3 bg-transparent rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-kimberly-smith.webp"
+            alt="angela-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Kimberly Smith</a
+              >
+              sent you a private message
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-transparent inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold"
+              >1 week ago</span
+            >
+          </div>
+          <img
+            src="assets/images/image-chess.webp"
+            alt="Chess club"
+            class="w-12 h-12"
+          />
+        </article>
+        <article class="px-3 py-3 mb-3 bg-transparent rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-nathan-peterson.webp"
+            alt="mark-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Nathan Peterson</a
+              >
+              reacted to your recent post
+              <a class="text-[#5e6778] font-bold hover:text-[#0a317b]"
+                >5 end-game strategies to increase your win rate
+              </a>
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-transparent inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold"
+              >2 weeks ago</span
+            >
+          </div>
+        </article>
+        <article class="px-3 py-3 mb-3 bg-transparent rounded-md flex gap-3">
+          <img
+            src="assets/images/avatar-anna-kim.webp"
+            alt="angela-avatar"
+            class="w-10 h-10"
+          />
+          <div class="flex flex-col">
+            <p class="text-sm text-[#5e6778]/80 font-medium">
+              <a href="#" class="text-black font-bold hover:text-[#0a317b]"
+                >Anna Kim</a
+              >
+              left the group
+              <a href="#" class="text-[#0a317b] font-bold hover:text-[#0a317b]"
+                >Chess Club</a
+              >
+              <span
+                class="w-2.5 h-2.5 rounded-full bg-transparent inline-block"
+              ></span>
+            </p>
+            <span class="text-[#939dae]/60 text-sm font-semibold"
+              >2 weeks ago</span
+            >
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
